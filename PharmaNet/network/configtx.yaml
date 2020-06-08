@@ -165,6 +165,7 @@ Orderer: &OrdererDefaults
     BlockValidation:
       Type: ImplicitMeta
       Rule: "ANY Writers"
+      
 
 Channel: &ChannelDefaults
   Policies:
